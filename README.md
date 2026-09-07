@@ -86,6 +86,9 @@ L'application permet aux pharmaciens et gestionnaires de suivre l'inventaire en 
 * **Tests d'Intégration** : Validation du flux de données entre modules et services externes.
 * **Analyse Statique** : Contrôle continu de la qualité du code avec **Android Lint** et **SonarQube**.
 
+⚙️ **Mutli-Module**
+* J'ai choisi de mettre en place une architecture multi-module sur ce projet afin de développer mes compétences et m'entraîner sur ce pattern avancé. Même si la taille actuelle de l'application n'imposait pas strictement cette découpe, il s'agissait du dernier projet de ma formation et je tenais à en maîtriser la complexité.
+* Avec le recul, la découpe la plus pertinente pour une évolutivité optimale serait d'isoler entièrement la brique d'authentification (services Firebase Auth, gestion de session et écrans de connexion/déconnexion) dans un module dédié (ex: :feature:auth), afin de le rendre 100 % réutilisable sur d'autres projets.
 ---
 
 ## ⚙️ Installation & Configuration
